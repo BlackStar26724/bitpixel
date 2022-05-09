@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BitPixels</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div id="divInfo">
+        <span id="spanPos"></span><br/>
+        <span id="spanPixel"></span>
+    </div>
+    <div id="divMint">
+        <span id="spanCount"></span><br/>
+        <a class="close" id="buttonClose"></a>        
+        <label class="button-buy" id="labelMint">
+            <input id="buttonMint" type="file" accept="image/*" />
+            Mint
+        </label>
+    </div>
+    <div id = "container">
+        <canvas></canvas>
+    </div>
+    
+    <!-- partial -->
+    <script type="text/javascript" src="./import.json"></script>
+    <script src="./rectangle.js"></script>
+    <script src="./gif.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
