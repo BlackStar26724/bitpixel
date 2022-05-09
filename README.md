@@ -1,2 +1,2 @@
-# bitpixel
-bitpixel canvas editor
+# Canvas GIF play
+Canvas GIF play
